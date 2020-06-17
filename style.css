@@ -1,27 +1,73 @@
-body
-{
-
-    font-family: 'Metal Mania', cursive;
+body{
+margin:0;    
+font-family: Arial, Helvetica, sans-serif;
 }
-
 h1{
+font-size: 50px;
 
-    font-size: 50px;
 }
+h2{
 
-.name-highlight{
-
-    color: orangered;
+    font-size: 40px;
 }
+p{
+    color: red;
+}
+.orange-highlight{
 
+    color: orange
+}
 .half-width{
-
-     width: 40%;
-     float:left;
-     margin-left: 5%;
-     padding-left: 2%;
+    width:40;
+    float:right;
+    margin-right:5% ;
+    padding-right: 2%;
 }
 .half-width img{
+    width:60% ;
+}
+.top-banner{
+    background-image: url("AAA.png");
+    background-repeat: no-repeat;
+    background-position: right;
 
-    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45 deg,lightsalmon,green);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream-area{
+   background-image: url("background1.png");
+   background-repeat: no-repeat;
+   background-position: right;
+
+
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    height: 80%;
+    
+}
+.experience-area{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180 deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180 deg,blue,green);
+    border-image-slice: 1;
+
 }
